@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #f8f9fa, #eef1f6);
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero-text p {
+    font-size: 1.25rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .solution-card {
+    border: 1px solid #dee2e6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+  }
+  
+  .solution-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
