@@ -34,15 +34,7 @@ export default function Header() {
       </Navbar>
 
       {/* --- White Secondary Navbar (Optional Insights Menu) --- */}
-      <div className="sticky-top" style={{ top: '80px', zIndex: '1020' }}>
-        <div className="bg-white py-3 shadow-sm d-flex justify-content-center gap-5">
-          <a href="#insights" className="text-dark fw-medium text-decoration-none hover-underline">Insights</a>
-          <a href="#services" className="text-dark fw-medium text-decoration-none hover-underline">Services</a>
-          <a href="#industries" className="text-dark fw-medium text-decoration-none hover-underline">Industries</a>
-          <a href="#howwework" className="text-dark fw-medium text-decoration-none hover-underline">How We Work</a>
-          <a href="#careers" className="text-dark fw-medium text-decoration-none hover-underline">Careers & Culture</a>
-        </div>
-      </div>
+     
     </>
   );
 }
